@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+#content {
+  margin: 30px 100px 0px 100px;
+}
+
+nav {
+  background-color: #57479e;
+  padding: 40px;
+  border-radius: 0 0 20px 20px;
+}
+
+nav a {
+  display: inline;
+  text-decoration: none;
+  margin-inline: 80px;
+  padding: 15px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 25px;
+}
+
+#about,
+#work {
+  margin-top: 25px;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px;
+  border: 2px solid #57479e;
+  border-radius: 25px;
+}
+
+#about,
+#work h1 {
+  text-align: center;
+}
+
+#about,
+#work p {
+  margin-top: 10px;
+}
+
+#resume {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #57479e;
+  margin-inline: 200px;
+  border-radius: 25px;
+}
+
+.skills,
+.education,
+.projects {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#resume div ul li {
+  text-align: left;
+}
+
+#contact {
+  margin-top: 25px;
+  border: 2px solid #57479e;
+  margin-right: 800px;
+  text-align: center;
+  border-radius: 25px;
+  padding-bottom: 20px;
+}
+
+#resume,
+#contact {
+  padding: 10px;
+}
+
+footer {
+  background-color: #57479e;
+  color: white;
+  margin-top: 20px;
+  padding-block: 20px;
+  border-radius: 25px 25px 0 0;
+}
+
+footer div p {
+  margin-top: 10px;
+}
+
+address {
+  margin-top: 10px;
+}
+
+.footer {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 32px;
+}
